@@ -1,0 +1,39 @@
+/*　タブレット向けレイアウト　*/
+@media(max-width:1000px){
+    header{
+      width:110%;
+    }
+   .map iframe{
+     width: 100%;
+   }
+   .address{
+     width: 50%;
+   }
+}
+
+/* スマホ向けレイアウト*/
+@media(max-width:670px){
+  .header-list{
+    display: none;
+  }
+
+  .menu-buttun {
+    display: block;
+  }
+  
+  .map iframe{
+    width:100%;
+  }
+  .address{
+    width: 100%;
+  }
+
+  .prof-image img{
+    width: 100%;
+  }
+
+  .prof-right{
+    width:100%;
+  }
+  
+}
